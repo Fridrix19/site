@@ -408,7 +408,7 @@ body {
 
 /* --------------ПЕРВАЯ СТРАНИЦА ----------------- */
 #page1 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: rgba(255, 255, 255, 0.192); */
     background-image: url(../svg/titlesvg.svg);
@@ -420,7 +420,7 @@ body {
 
 #btctitle {
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     top: -100%;
     /* Изначально элемент будет скрыт за пределами видимой области */
@@ -440,7 +440,7 @@ body {
 }
 
 #vector1 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     z-index: -1;
 }
@@ -448,7 +448,7 @@ body {
 /* --------- НАВИГАЦИЯ----------- */
 
 .nav {
-    width: 100%;
+    width: 1920px;
     height: 100px;
 }
 
@@ -490,7 +490,7 @@ a {
     padding-top: 160px;
     display: flex;
     justify-content: center;
-    width: 69.5%;
+    width: 1340px;
 
 }
 
@@ -541,7 +541,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-image: url(../svg/Group332.svg); */
 }
@@ -566,7 +566,7 @@ a {
     z-index: -1;
     position: absolute;
     top: 1350px;
-    width: 100% !important;
+    width: 1920px !important;
     height: 1080px !important;
 }
 
@@ -616,7 +616,7 @@ a {
     background-position-y: 378px;
     background-position-x: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     display: flex;
     flex-direction: column;
@@ -627,7 +627,7 @@ a {
 
 #page3 img {
     margin-top: 2700px;
-    width: 100%;
+    width: 1920px;
     height: 2800px;
     position: absolute;
 
@@ -734,7 +734,7 @@ a {
 }
 
 #page4 {
-    width: 100%;
+    width: 1920px;
     height: 2160px;
     /* background-color: #ffffff57; */
     display: flex;
@@ -828,14 +828,14 @@ a {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 130px;
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: #ffffff50; */
 }
 
 #page5 img {
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 1500px;
     margin-top: 220px;
 }
@@ -1006,7 +1006,7 @@ a {
 
 /* ---------Шестая страница---------- */
 #page6 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: #ffffff50; */
     display: flex;
@@ -1086,7 +1086,7 @@ a {
 /* -------------Седьмая страница------------- */
 
 #page7 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: #ffffff50; */
     align-items: center;
@@ -1187,7 +1187,7 @@ a {
 /* ------------восьмая страница----------- */
 
 #page8 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: #ffffff50; */
     display: flex;
@@ -1452,7 +1452,7 @@ html {
 }
 
 #page9 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     /* background-color: rgba(255, 255, 255, 0.192); */
     display: flex;
@@ -1624,7 +1624,7 @@ html {
 
 
 #page10 {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     flex-direction: column;
 }
@@ -1704,7 +1704,7 @@ html {
 }
 
 .footer {
-    width: 100%;
+    width: 1920px;
     height: 24%;
     justify-content: center;
     position: absolute;
@@ -1752,4 +1752,21 @@ html {
 .footer .link a:hover {
     opacity: 0.2;
     transform: scale(0.9);
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 998px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
 }
